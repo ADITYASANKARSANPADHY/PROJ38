@@ -162,7 +162,7 @@ function fruits(){
   if(position==1){
      fruit.x=400;
      fruit.velocityX= -(7+(score/4));
-     camera.position.x = 300;
+    // camera.position.x = 300;
      //camera.position.y = cars[index-1].y
    } 
    else 
