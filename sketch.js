@@ -67,6 +67,7 @@ if (gameState === PLAY){
   knife.x = World.mouseX;  
   knife.y = World.mouseY;  
   
+  camera.position.x = knife.x;
   
   if (fruitGroup.isTouching(knife)){  
     fruitGroup.destroyEach(); 
